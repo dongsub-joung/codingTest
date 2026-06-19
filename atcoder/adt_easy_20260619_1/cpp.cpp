@@ -1,3 +1,5 @@
+#define NON 0.000000000001
+#define DEFAULT 0.000000000000
 #define PERFECT 1.000000000000
 
 #include <iostream> 
@@ -8,7 +10,11 @@ int main(int argc, char const *argv[])
 	{
 		int a, int b, int c, int x= std::in >>;
 		if (a <= x){
-			return PERFECT;
+			answer= PERFECT;
+			return -1;
+		} if( abs() >=  NON){
+			answer= DEFAULT;
+			return -1; 
 		}else{
 			int remained= b-a;
 			answer= c % remained;
