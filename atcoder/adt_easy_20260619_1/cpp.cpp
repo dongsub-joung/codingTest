@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 		if (a <= x){
 			answer= PERFECT;
 			return -1;
-		} if( abs() >=  NON){
+		} if( abs() <=  NON){
 			answer= DEFAULT;
 			return -1; 
 		}else{
