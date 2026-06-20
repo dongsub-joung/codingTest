@@ -10,5 +10,8 @@ class java{
 		int c= 20;
 		int x= 103;
 
+		float answer= q_a(a,b,c,x);
+		
+		System.out.println(answer);
 	}
 }
