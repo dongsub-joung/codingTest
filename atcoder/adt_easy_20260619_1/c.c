@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main() {
+float q_a() {
     int x= 103;
 
     int remained;
@@ -10,11 +10,14 @@ int main() {
         remained= b-a;
     }
 
-    int percentage;
+    float percentage;
     {
         int c= 20;
+
         percentage= c % remained;
+
+        // if(percentage)
     }
 
-    return 0;
+    return percentage;
 }
