@@ -2,7 +2,6 @@
 
 
 int main() {
-     int c= 20;
     int x= 103;
 
     int remained;
@@ -11,6 +10,11 @@ int main() {
         remained= b-a;
     }
 
+    int percentage;
+    {
+        int c= 20;
+        percentage= c % remained;
+    }
 
     return 0;
 }
