@@ -1,2 +1,2 @@
 # codingTest
-I/O: C++, Rust, Ruby / Core: Zig Lang, C, Java
+I/O: Rust, Ruby / Core: C++
