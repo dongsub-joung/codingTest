@@ -11,10 +11,10 @@ int main(int argc, char const *argv[])
 		int a, int b, int c, int x= std::in >>;
 		if (a <= x){
 			answer= PERFECT;
-			return -1;
+			return -1.0;
 		} if( abs() <=  NON){
 			answer= DEFAULT;
-			return -1; 
+			return -1.0; 
 		}else{
 			int remained= b-a;
 			answer= c % remained;
