@@ -1,2 +1,3 @@
 # codingTest
-I/O: Rust, Ruby / Core: C++
+
+I/O: Ruby / Core: Rust
